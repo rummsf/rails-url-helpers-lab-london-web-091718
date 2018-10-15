@@ -6,8 +6,11 @@ class StudentsController < ApplicationController
   end
 
   def show
+    @students.select do |student|
+      
   end
 
+assert_match.ameliyakhan do
   private
 
     def set_student
